@@ -19,22 +19,16 @@ export default function Home() {
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous"
         ></link>
+        <meta property="og:title" content="Elite Tech" />
+        <meta
+          property="og:description"
+          content="Professional Website developers. Get Your Website ready in 3 days"
+        />
+        <meta property="og:image" content="https://i.ibb.co/WBxX6pY/logo.jpg" />
+        <meta property="og:url" content="https://elite-tech.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Navbar />
-      {/* <ScrollTop
-        text="☝🏻"
-        distance={100}
-        breakpoint={768}
-        style={{
-          backgroundColor: "lightblue",
-          zIndex: "100",
-          borderRadius: "10px",
-          fontSize: "20px",
-        }}
-        className="scroll-your-role"
-        speed={1000}
-        target={75}
-      /> */}
       <Body />
       <Services />
       <Technology />
