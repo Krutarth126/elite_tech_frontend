@@ -7,7 +7,7 @@ import Navbar from "../component/Navbar";
 import Services from "../component/Services";
 import Technology from "../component/Technology";
 import styles from "../styles/Home.module.css";
-import ScrollTop from "react-scrolltop-button";
+// import ScrollTop from "react-scrolltop-button";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         ></link>
       </Head>
       <Navbar />
-      <ScrollTop
+      {/* <ScrollTop
         text="☝🏻"
         distance={100}
         breakpoint={768}
@@ -34,7 +34,7 @@ export default function Home() {
         className="scroll-your-role"
         speed={1000}
         target={75}
-      />
+      /> */}
       <Body />
       <Services />
       <Technology />
