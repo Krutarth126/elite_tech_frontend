@@ -11,7 +11,7 @@ function TechnologyCard() {
         <div className="col-sm-4 col-12">
           <div
             className="carddd m-2"
-            data-aos="flip-up"
+            data-aos="slide-up"
             data-aos-duration="1000"
             style={{ width: "18rem" }}
           >
@@ -37,7 +37,7 @@ function TechnologyCard() {
         <div className="col-sm-4 col-12">
           <div
             className="carddd m-2"
-            data-aos="flip-up"
+            data-aos="slide-up"
             data-aos-duration="1000"
             style={{ width: "18rem" }}
           >
@@ -63,7 +63,7 @@ function TechnologyCard() {
         <div className="col-sm-4 col-12">
           <div
             className="carddd m-2"
-            data-aos="flip-up"
+            data-aos="slide-up"
             data-aos-duration="1000"
             style={{ width: "18rem" }}
           >
@@ -89,7 +89,7 @@ function TechnologyCard() {
         <div className="col-sm-4 col-12">
           <div
             className="carddd m-2"
-            data-aos="flip-up"
+            data-aos="slide-up"
             data-aos-duration="1000"
             style={{ width: "18rem" }}
           >
@@ -117,7 +117,7 @@ function TechnologyCard() {
           <div
             className="carddd m-2"
             data-aos-duration="1000"
-            data-aos="flip-up"
+            data-aos="slide-up"
             style={{ width: "18rem" }}
           >
             <div style={{ minHeight: "200px" }}>
