@@ -13,4 +13,229 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navv {
+  background-color: #c8c8f3 !important;
+  /* height: 8vh; */
+  z-index: 100;
+}
+
+.navv li a {
+  color: black !important;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.navv ul li a:hover {
+  box-shadow: 0 0px 15px blue;
+  transform: scale(1.05);
+}
+
+.body_image {
+  background-image: url("https://i.ibb.co/48BcFpp/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.body__content {
+  background-color: rgba(255, 255, 255, 0.205);
+  min-height: 100vh;
+}
+.body__content h1 {
+  text-align: center;
+  line-height: 80px;
+  word-spacing: 10px;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: rgb(46, 46, 247);
+}
+
+.cards-1 {
+  z-index: 100;
+  animation: animation 4s infinite;
+}
+.cards-2 {
+  z-index: 100;
+  animation: animation 4s infinite;
+  animation-delay: 1s;
+}
+.cards-3 {
+  z-index: 100;
+  animation: animation 4s infinite;
+  animation-delay: 1s;
+}
+.cards-4 {
+  z-index: 100;
+  animation: animation 4s infinite;
+  animation-delay: 0s;
+}
+
+.cards-1 img,
+.cards-2 img,
+.cards-3 img,
+.cards-4 img {
+  /* margin-left: 40px; */
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.cards-1 h5,
+.cards-2 h5,
+.cards-3 h5,
+.cards-4 h5 {
+  text-align: center;
+  color: black;
+}
+
+@keyframes animation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.services h1,
+.services p {
+  text-align: center;
+}
+
+.services p {
+  font-weight: 600;
+}
+.serviceCard {
+  width: 85%;
+  margin: auto;
+}
+
+.serviceCard__11 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #21d4fd;
+  background: #2bc0e4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaecc6,
+    #2bc0e4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaecc6,
+    #2bc0e4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.serviceCard__11 h5,
+.serviceCard__11 p {
+  text-align: center;
+}
+
+.serviceCard__11 img {
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.carddd {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  min-height: 60vh;
+  padding: 10px;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  color: white;
+}
+
+.carddd-img {
+  margin-left: 40px;
+}
+
+.about__card {
+  color: white;
+  background: #1488cc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2b32b2, #1488cc);
+  background: linear-gradient(to right, #2b32b2, #1488cc);
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.74) 0px 10px 20px;
+  border-radius: 10px;
+}
+.about__card h1 {
+  color: yellow;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.about__card h5 {
+  color: black;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.about__card span {
+  color: yellow;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#contact small {
+  color: red;
+}
+
+/* footer css starts */
+.footer-clean {
+  background: rgb(20, 19, 19);
+  color: white;
+}
+.footer-clean ul {
+  list-style: none;
+  margin-left: -30px;
+}
+.footer-clean p {
+  font-size: 20px;
+  margin-top: 5vh;
+}
+
+@media screen and (max-width: 480px) {
+  .navv ul {
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+  .serviceCard__11 img {
+    width: 100%;
+    height: 150px;
+  }
+  .about__card {
+    width: 95%;
+  }
 }
