@@ -5,7 +5,7 @@ function Technology() {
   return (
     <section id="technology">
       <div className="technology">
-        <h1 style={{ textAlign: "center" }}>Techlogy Expertise</h1>
+        <h2>Techlogy Expertise</h2>
         <TechnologyCard />
       </div>
     </section>

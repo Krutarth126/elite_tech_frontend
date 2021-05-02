@@ -39,7 +39,7 @@ const Input = () => {
   return (
     <section id="contact">
       <div className="my-5" style={{ minHeight: "80vh" }}>
-        <h1 style={{ textAlign: "center" }}>Contact Us</h1>
+        <h2>Contact Us</h2>
         <form className="w-75 m-auto" style={{ fontWeight: "700" }}>
           <div className="form-group ">
             <label htmlFor="Name">Name</label>

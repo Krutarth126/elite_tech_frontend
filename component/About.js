@@ -8,13 +8,13 @@ function About() {
   return (
     <section id="about">
       <div className="about">
-        <h1 style={{ textAlign: "center" }}>About Us</h1>
+        <h2>About Us</h2>
         <div
           className="about__card"
           data-aos="fade-out"
           data-aos-duration="3000"
         >
-          <h1>Elite Tech:</h1>
+          <h2>Elite Tech:</h2>
           <p>
             You Dream It , We Build It. get your website ready in very low price
             with enhanced quality.

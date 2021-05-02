@@ -14,7 +14,7 @@ function ServiceCard() {
           data-aos-duration="1000"
         >
           <div className="w-100 mx-auto ">
-            <img src="https://i.ibb.co/zGjHBBM/webapp.png" />
+            <img src="https://i.ibb.co/zGjHBBM/webapp.png" alt="" />
           </div>
           <h5>Web Application</h5>
           <p>
@@ -31,11 +31,7 @@ function ServiceCard() {
           data-aos-duration="1000"
         >
           <div className="w-100 mx-auto ">
-            <img
-              src="https://i.ibb.co/S7pjPFY/ecomm.png"
-              width="100%"
-              height="150px"
-            />
+            <img src="https://i.ibb.co/S7pjPFY/ecomm.png" alt="" />
           </div>
           <h5>Ecommerce</h5>
           <p>
@@ -52,11 +48,7 @@ function ServiceCard() {
           data-aos-duration="1000"
         >
           <div className="w-100 mx-auto ">
-            <img
-              src="https://i.ibb.co/v1nmyk3/ads-logo.png"
-              width="100%"
-              height="150px"
-            />
+            <img src="https://i.ibb.co/v1nmyk3/ads-logo.png" alt="" />
           </div>
           <h5>Advertising Support</h5>
           <p>
