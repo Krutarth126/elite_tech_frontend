@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark navv">
       <a className="navbar-brand" href="/">
-        <img src="https://i.ibb.co/tQYzJPs/logo.png" width="40px" />
+        <img src="https://i.ibb.co/tQYzJPs/logo.png" width="40px" alt="" />
       </a>
       <button
         className="navbar-toggler"

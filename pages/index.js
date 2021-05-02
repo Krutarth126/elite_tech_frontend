@@ -33,7 +33,7 @@ export default function Home() {
         <meta name="title" content="Elite Tech:- Website creators " />
         <meta
           name="description"
-          content="Do You Want Your Website ready in 3 days? You are in right place. Get your custom website ready within 3 days"
+          content="Elite Tech || Do You Want Your Website ready in 3 days? You are in right place. Get your custom website ready within 3 days"
         />
         <link rel="icon" href="https://i.ibb.co/tQYzJPs/logo.png" />
         <meta name="allow-search" content="yes" />
