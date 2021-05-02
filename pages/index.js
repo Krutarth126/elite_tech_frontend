@@ -24,7 +24,10 @@ export default function Home() {
           property="og:description"
           content="Professional Website developers. Get Your Website ready in 3 days"
         />
-        <meta property="og:image" content="https://i.ibb.co/WBxX6pY/logo.jpg" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/nDFz1tb/logo2.jpg"
+        />
         <meta property="og:url" content="https://elite-tech.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
